@@ -13,6 +13,20 @@ const ColorPicker = () => {
         color={snap.color}
         disableAlpha //gets rid of opacity slider
         onChange={(color) => state.color = color.hex}
+        presetColors={[
+          "#ccc",
+          "#EFBD4E",
+          "80C670",
+          "#726DE8",
+          "#353934",
+          "#2CCCE4",
+          "#ff8a65",
+          "#7098DA",
+          "#C19277",
+          "#FF96AD",
+          "#512314",
+          "#5F123D",
+        ]}
       />
     </div>
   )
